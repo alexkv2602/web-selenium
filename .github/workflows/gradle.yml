@@ -34,5 +34,3 @@ jobs:
 
       - name: Run Tests
         run: chmod +x gradlew && ./gradlew test --info
-      - name: Build with Gradle
-        run: chmod +x gradlew && ./gradlew build
